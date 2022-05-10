@@ -94,8 +94,8 @@ def each_frame(image):
 
 	
 	client.send_message("/notes",notes)
-	client.send_message("/ratio",[ratio, len(dur), dur])
 	client.send_message("/level",level)
+	client.send_message("/ratio",[ratio, len(dur), dur])
 	client.send_message("/perc_index",int(ratio-1))
 	client.send_message("/perc_index2",random.randint(0,9))
 	client.send_message("/compose",int(image[0][0][0]))
