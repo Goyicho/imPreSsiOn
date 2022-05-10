@@ -1,1 +1,8 @@
 # imPreSsiOn
+
+A music synthesis project based on visual analyze, with Python, SuperCollider, and OSC.
+
+How to run:
+1. (have SuperCollider installed), open 05.scd, evaluate NetAddr.langPort, make sure it matches with the port number on line 12 in take_video.py file
+2. in 05.scd file, cmd + A, cmd + return
+3. run python3 take_video.py relative/path/to/video/file 
