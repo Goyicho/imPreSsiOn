@@ -110,6 +110,7 @@ if __name__ == "__main__":
 
     for image in frame_array:
     	each_frame(image)
+	# due to image process delay
     	time.sleep(8)
     
 
